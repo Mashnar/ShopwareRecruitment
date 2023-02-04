@@ -1,16 +1,13 @@
 <?php
-
+declare(strict_types=1);
 
 namespace ShopwareRecruitmentPlugin\Subscriber;
 
-
 use Shopware\Core\Checkout\Cart\Event\CartChangedEvent;
-use Shopware\Storefront\Page\Product\ProductPageCriteriaEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 class CardChangedSubscriber implements EventSubscriberInterface
 {
-
     public static function getSubscribedEvents(): array
     {
         return [

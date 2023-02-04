@@ -18,7 +18,6 @@ use ShopwareRecruitmentPlugin\Core\Content\Product\Aggregate\ProductBadgeTransla
 
 class ProductBadgeDefinition extends EntityDefinition
 {
-
     public const ENTITY_NAME = 'product_badge';
 
     public function getEntityName(): string

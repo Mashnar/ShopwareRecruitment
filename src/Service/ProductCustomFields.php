@@ -14,7 +14,6 @@ use Shopware\Core\System\CustomField\CustomFieldTypes;
 
 class ProductCustomFields
 {
-
     public const LABEL_CUSTOM_FIELD_KEY = 'label';
     public const ONE_CUSTOM_FIELD_KEY = 'description';
 
