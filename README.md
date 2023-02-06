@@ -1,4 +1,4 @@
-# ShopwareRecruitmentRepository
+# ShopwareRecruitment
 
 To activate plugin, execute: 
 
